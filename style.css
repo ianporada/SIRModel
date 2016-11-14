@@ -1,0 +1,112 @@
+.county {
+  visibility: hidden;
+}
+
+.county.active {
+  visibility: visible;
+  fill: gray;
+  stroke: #fff;
+  stroke-width: 0.25px;
+}
+
+.county.active.hovered {
+  cursor: pointer;
+  stroke: black;
+  stroke-width: 0.5px;
+}
+
+.state {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.state:hover {
+  cursor: pointer;
+  fill: #999;
+}
+
+.state.active {
+  visibility: hidden;
+}
+
+body {
+  text-align: center;
+  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+
+h1 {
+  color: #333;
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 3em;
+}
+
+section {
+  width: 960;
+}
+
+button.small {
+  padding-top: 0.875rem;
+  padding-right: 1.75rem;
+  padding-bottom: 0.9375rem;
+  padding-left: 1.75rem;
+  font-size: 1em;
+  height: 108px;
+}
+
+button {
+  vertical-align: top;
+  border-width: 0px;
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  background-color: #444;
+  color: #fff;
+  transition: background-color 300ms ease-out;
+  margin-top: 4px;
+}
+
+button:hover {
+  background-color: #222;
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+  padding-right: 5px;
+  text-align: right;
+}
+
+input {
+  margin-bottom: 4px;
+  width: 70px;
+}
+
+#inputs {
+  display: inline-block;
+}
+
+aside {
+  padding-top: 10px;
+  vertical-align: top;
+  color: #333;
+  display: inline-block;
+  margin-left: 25px;
+  text-align: left;
+  width: 350px;
+}
+
+h3, h4 {
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5em;
+}
